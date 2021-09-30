@@ -511,14 +511,29 @@
 }
 
 /* Product item  */
-/* product-item */
+.product-item{
+    background-color: var(--white-color);
+
+}
 .product-item__img{
     padding-top: 100%;
     background-repeat: no-repeat;
     background-size: contain;
 }
-/* product-item__name
-product-item__price
+.product-item__name{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--text-color);
+    line-height: 1.8rem;
+    height: 3.6rem;
+    margin: 10px;
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+/* product-item__price
 product-item__price-old
 product-item__price-current
 product-item__action
