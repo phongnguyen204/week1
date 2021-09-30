@@ -308,7 +308,6 @@
     flex: 1;
     display: flex;
     align-items: center;
-
 }
 
 
@@ -512,50 +511,23 @@
 }
 
 /* Product item  */
-.product-item{
-    /* background-color: var(--white-color); */
-
-}
+product-item
 .product-item__img{
     padding-top: 100%;
     background-repeat: no-repeat;
     background-size: contain;
-
 }
-.product-item__name{
-
-}
-.product-item__price{
-
-}
+/* product-item__name
+product-item__price
 product-item__price-old
 product-item__price-current
-.product-item__action{
-
-}
+product-item__action
 product-item__like
 product-item__rating
-.product-item__origin{
-
-}
+product-item__origin
 product-item__brand
 product-item__origin-name
-.product-item__favourite{
-
-}
-
-.product-item__saleoff{
-
-}
+product-item__favourite
+product-item__saleoff
 product-item__saleoff-percent
-product-item__saleoff-label
-
-
-
-
-
-
-
-
-
-
+product-item__saleoff-label  */
